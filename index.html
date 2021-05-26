@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/454404a355.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="quote-container" class="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-angle-double-left"></i>
+            <span id="quote"></span>
+            <i class="fas fa-angle-double-right"></i>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="btn-container">
+            <button id="twitter" class="twitter-btn" title="Tweet" onclick="tweetQuote();">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote" onclick="newQuote();">New quote</button>
+        </div>
+    </div>
+
+    <!-- Loader -->
+    <div id="loader" class="loader"></div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
